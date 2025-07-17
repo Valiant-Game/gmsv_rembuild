@@ -30,6 +30,7 @@ This helps maintain compatibility across multiple map versions for **permaprops*
      ```lua
      require("rembuild")
      ```
+     <img width="296" height="133" alt="image" src="https://github.com/user-attachments/assets/61b979c8-814e-4839-9d52-9ef5ab3e29f4" />
 
 3. ✅ Make sure it loads **before any addon** that relies on `game.GetMap()`!
 
