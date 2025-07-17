@@ -1,0 +1,15 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "gm_rembuild"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+gmod = { git = "https://github.com/WilliamVenner/gmod-rs" }
+#
+#[patch.crates-io]
+#retour = { git = "https://github.com/workingjubilee/hpmason-retour-rs", branch = "fix-retour-for-unsupported-fn-ptr-calling-conventions" }
